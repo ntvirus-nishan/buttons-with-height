@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* .small-button,
+.medium-button,
+.large-button,
+.small-button36,
+.medium-button48,
+.large-button56 { */
+button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+}
+.small-button {
+  height: 32px;
+  background-color: #808080;
+  color: #fefefe;
+}
+.medium-button {
+  height: 40px;
+}
+.large-button {
+  height: 52px;
+}
+
+.small-button36 {
+  height: 36px;
+}
+.medium-button48 {
+  height: 48px;
+}
+.large-button56 {
+  height: 56px;
+}
